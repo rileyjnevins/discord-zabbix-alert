@@ -10,12 +10,15 @@ For more information about the Zabbix project, visit their website (https://www.
 1. Login to your Zabbix Server. 
 2. Create a Macro under Administration -> General -> Macros.
 3. Create one named "{$ZABBIX.URL}" containing the URL to your Zabbix Server.
-4. Go to Administration -> Media Types -> Import (select media_discord.xml). 
-6. Once imported and added, go to Administration -> Users -> Admin -> Media
-6. Add the newly created "Discord" media type, and edit the "send to" field with your Discord Webhook URL.
+4. Direct to Configuration -> Actions, and enable the existing rule. 
+5. Go to Administration -> Media Types -> Create
+6. Add the listed Paramaters & Values:
 
-# Debug
-Having troubles importing the xml file? You can manually enter the information found in the XML in the Add Media section. This works just as good, but takes a chunk of time. 
-Create parameters with peoper names/values.
-Copy script contents into script section.
-Save media type. 
+![image](https://user-images.githubusercontent.com/64431703/115061104-53103000-9eae-11eb-95c1-228d7d34ba92.png)
+
+6. Copy the contents of script.sh into the "script" field and apply.
+
+![image](https://user-images.githubusercontent.com/64431703/115061167-6fac6800-9eae-11eb-8306-353c30039d9e.png)
+
+8. Once the media type is added, go to Administration -> Users -> **Admin (your admin user)** -> Media
+9. Add the newly created "Discord" media type, and edit the "send to" field with your Discord Webhook URL.
