@@ -19,7 +19,7 @@ For more information about the Zabbix project, visit their website (https://www.
 
 ![image](https://user-images.githubusercontent.com/64431703/115061104-53103000-9eae-11eb-95c1-228d7d34ba92.png)
 
-6. Copy the contents of script.sh into the "script" field and apply.
+6. Copy the contents of <a href="https://github.com/rileyjnevins/discord-zabbix-alert/blob/main/script.sh">script.sh</a> into the "script" field and apply.
 
 ![image](https://user-images.githubusercontent.com/64431703/115061167-6fac6800-9eae-11eb-8306-353c30039d9e.png)
 
