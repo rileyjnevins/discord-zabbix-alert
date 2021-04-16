@@ -1,4 +1,7 @@
 # Discord Alerts | Zabbix
+
+![image](https://user-images.githubusercontent.com/64431703/115061856-4a6c2980-9eaf-11eb-8e74-eef7d3407e58.png)
+
 Working Discord Alerts for Zabbix Server 5.0+.
 
 # Foundation
