@@ -147,7 +147,7 @@ try {
         }
 
         body.embeds[0].footer = {
-            text: 'Event ID: ' + params.event_id
+            text: 'Event ID: ' + params.trigger_id
         };
 
         if (params.event_tags) {
