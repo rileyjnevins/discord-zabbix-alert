@@ -146,14 +146,16 @@ try {
             });
         }
 
-        body.embeds[0].footer = {
-            text: 'Event ID: ' + params.trigger_id
-        };
+        if (params.trigger_id) {
+            body.embeds[0].footer = {
+                text: 'Event ID: ' + params.trigger_id
+            }
+            body.embeds[0].footer.text = stringTruncate(body.embeds[0].footer.text, 2048);
+        }
 
         if (params.event_tags) {
             body.embeds[0].footer.text += '\nEvent tags: ' + params.event_tags;
         }
-        body.embeds[0].footer.text = stringTruncate(body.embeds[0].footer.text, 2048);
     }
 
     if (fields.length > 0) {
