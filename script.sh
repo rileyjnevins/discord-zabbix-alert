@@ -145,15 +145,18 @@ try {
                 value: stringTruncate(params.trigger_description, 1024)
             });
         }
-
-        body.embeds[0].footer = {
-            text: 'Event ID: ' + params.event_id
-        };
+        
+        
+        if (params.event_tags) {
+            body.embeds[0].footer = {
+                text: 'Event ID: ' + params.event_id
+            }
+            body.embeds[0].footer.text = stringTruncate(body.embeds[0].footer.text, 2048);
+        }
 
         if (params.event_tags) {
             body.embeds[0].footer.text += '\nEvent tags: ' + params.event_tags;
         }
-        body.embeds[0].footer.text = stringTruncate(body.embeds[0].footer.text, 2048);
     }
 
     if (fields.length > 0) {
