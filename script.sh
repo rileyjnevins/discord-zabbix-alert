@@ -147,9 +147,9 @@ try {
         }
         
         
-        if (params.event_id) {
+        if (params.trigger_id) {
             body.embeds[0].footer = {
-                text: 'Event ID: ' + params.event_id
+                text: 'Event ID: ' + params.trigger_id
             }
             body.embeds[0].footer.text = stringTruncate(body.embeds[0].footer.text, 2048);
         }
