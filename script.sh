@@ -147,7 +147,7 @@ try {
         }
         
         
-        if (params.event_tags) {
+        if (params.event_id) {
             body.embeds[0].footer = {
                 text: 'Event ID: ' + params.event_id
             }
