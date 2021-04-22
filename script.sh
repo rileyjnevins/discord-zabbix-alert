@@ -145,8 +145,7 @@ try {
                 value: stringTruncate(params.trigger_description, 1024)
             });
         }
-        
-        
+
         if (params.trigger_id) {
             body.embeds[0].footer = {
                 text: 'Event ID: ' + params.trigger_id
