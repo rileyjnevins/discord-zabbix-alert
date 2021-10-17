@@ -1,15 +1,13 @@
-# Discord Alerts | Zabbix
+# Discord Alerts | Zabbix 5.X
 
 ![image](https://user-images.githubusercontent.com/64431703/115061856-4a6c2980-9eaf-11eb-8e74-eef7d3407e58.png)
-
-Working Discord Alerts for Zabbix Server 5.0+.
 
 # Foundation
 This code has been created by Zabbix (https://www.zabbix.com/integrations/discord) and has not been updated for newer Zabbix Server versions. I've simply adjusted their code to support the Discord API & Zabbix changes. I do not take/claim ownership of the contents found here. 
 
 For more information about the Zabbix project, visit their website (https://www.zabbix.com/). 
 
-# Setup
+# Setup/Installation
 1. Login to your Zabbix Server. 
 2. Create a Macro under Administration -> General -> Macros.
 3. Create one named "{$ZABBIX.URL}" containing the URL to your Zabbix Server.
@@ -25,3 +23,4 @@ For more information about the Zabbix project, visit their website (https://www.
 
 8. Once the media type is added, go to Administration -> Users -> **Admin (your admin user)** -> Media
 9. Add the newly created "Discord" media type, and edit the "send to" field with your Discord Webhook URL.
+10. All done! Enjoy Zabbix Discord Alerts.
