@@ -1,6 +1,6 @@
 # Discord Alerter | Zabbix 5.X
 
-![image]()
+![image](https://user-images.githubusercontent.com/24830343/190026724-51665d4f-b894-493d-bb52-7e892a794df7.png)
 
 # Foundation
 This code has been created by Zabbix (https://www.zabbix.com/integrations/discord) and adjusted by Riley Nevins (https://github.com/rileyjnevins/discord-zabbix-alert) to support the Discord API & Zabbix changes in version 5.0 and newer.
@@ -18,7 +18,8 @@ For more information about the Zabbix project, visit their website (https://www.
 5. Go to Administration -> Media Types -> Create.
 6. Add the listed Paramaters & Values:
 
-![image]()
+![image](https://user-images.githubusercontent.com/24830343/190026526-8cab003c-2c7d-4dd5-936c-71a580236e8a.png)
+
 
 7. Insert your Discord Webhook URL into the field `discord_endpoint`.
 
