@@ -59,6 +59,7 @@ try {
     var color = parseInt(SEVERITY_COLORS[params.event_nseverity].replace('#', ''), 16),
         fields = [],
         body = {
+            content: '<@' + params.discord_id + '>',
             embeds: [
             {
                 color: color || 0,
